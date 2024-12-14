@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -30,6 +34,8 @@ body {
 }
 
 button {
+  
+
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -45,4 +51,28 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap:8px;
+}
+
+
+.links{
+  
+}
+
+.stanga{
+  display: flex;
+  align-items: center;
+  
+  gap:8px;
+}
+
+.dreapta{
+  display: flex;
+  align-items: center;
+  
+  
+  gap:8px;
 }
